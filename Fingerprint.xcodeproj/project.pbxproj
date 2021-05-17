@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0668D22652EAD2000D0ECF /* QuickSortInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668B62652EAD2000D0ECF /* QuickSortInteger.cpp */; };
+		EC0668D32652EAD2000D0ECF /* FingerprintManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668B72652EAD2000D0ECF /* FingerprintManager.h */; };
+		EC0668D42652EAD2000D0ECF /* FingerprintProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668B82652EAD2000D0ECF /* FingerprintProperties.cpp */; };
+		EC0668D52652EAD2000D0ECF /* ArrayRankFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668B92652EAD2000D0ECF /* ArrayRankFloat.cpp */; };
+		EC0668D62652EAD2000D0ECF /* FastFourierTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668BA2652EAD2000D0ECF /* FastFourierTransform.h */; };
+		EC0668D72652EAD2000D0ECF /* FastFourierTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668BB2652EAD2000D0ECF /* FastFourierTransform.cpp */; };
+		EC0668D82652EAD2000D0ECF /* Fingerprint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668BC2652EAD2000D0ECF /* Fingerprint.cpp */; };
+		EC0668D92652EAD2000D0ECF /* Spectrogram.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668BD2652EAD2000D0ECF /* Spectrogram.h */; };
+		EC0668DA2652EAD2000D0ECF /* PairManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668BE2652EAD2000D0ECF /* PairManager.h */; };
+		EC0668DB2652EAD2000D0ECF /* FingerprintProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668BF2652EAD2000D0ECF /* FingerprintProperties.h */; };
+		EC0668DC2652EAD2000D0ECF /* QuickSortInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C02652EAD2000D0ECF /* QuickSortInteger.h */; };
+		EC0668DD2652EAD2000D0ECF /* FingerprintSimilarityComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C12652EAD2000D0ECF /* FingerprintSimilarityComputer.h */; };
+		EC0668DE2652EAD2000D0ECF /* WindowFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C22652EAD2000D0ECF /* WindowFunction.cpp */; };
+		EC0668DF2652EAD2000D0ECF /* PairManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C32652EAD2000D0ECF /* PairManager.cpp */; };
+		EC0668E02652EAD2000D0ECF /* FingerprintManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C42652EAD2000D0ECF /* FingerprintManager.cpp */; };
+		EC0668E12652EAD2000D0ECF /* FingerprintSimilarity.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C52652EAD2000D0ECF /* FingerprintSimilarity.h */; };
+		EC0668E22652EAD2000D0ECF /* ArrayCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C62652EAD2000D0ECF /* ArrayCoord.h */; };
+		EC0668E32652EAD2000D0ECF /* ArrayCoord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C72652EAD2000D0ECF /* ArrayCoord.cpp */; };
+		EC0668E42652EAD2000D0ECF /* FingerprintSimilarity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C82652EAD2000D0ECF /* FingerprintSimilarity.cpp */; };
+		EC0668E52652EAD2000D0ECF /* RobustIntensityProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C92652EAD2000D0ECF /* RobustIntensityProcessor.cpp */; };
+		EC0668E62652EAD2000D0ECF /* Fingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668CA2652EAD2000D0ECF /* Fingerprint.h */; };
+		EC0668E72652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668CB2652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp */; };
+		EC0668E82652EAD2000D0ECF /* MapRankInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668CC2652EAD2000D0ECF /* MapRankInteger.cpp */; };
+		EC0668E92652EAD2000D0ECF /* MapRankInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668CD2652EAD2000D0ECF /* MapRankInteger.h */; };
+		EC0668EA2652EAD2000D0ECF /* Spectrogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668CE2652EAD2000D0ECF /* Spectrogram.cpp */; };
+		EC0668EB2652EAD2000D0ECF /* RobustIntensityProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668CF2652EAD2000D0ECF /* RobustIntensityProcessor.h */; };
+		EC0668EC2652EAD2000D0ECF /* ArrayRankFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668D02652EAD2000D0ECF /* ArrayRankFloat.h */; };
+		EC0668ED2652EAD2000D0ECF /* WindowFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668D12652EAD2000D0ECF /* WindowFunction.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC0668F02652EE41000D0ECF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC0668A82652EA0C000D0ECF /* libFingerprint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFingerprint.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0668B62652EAD2000D0ECF /* QuickSortInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSortInteger.cpp; sourceTree = "<group>"; };
+		EC0668B72652EAD2000D0ECF /* FingerprintManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintManager.h; sourceTree = "<group>"; };
+		EC0668B82652EAD2000D0ECF /* FingerprintProperties.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerprintProperties.cpp; sourceTree = "<group>"; };
+		EC0668B92652EAD2000D0ECF /* ArrayRankFloat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayRankFloat.cpp; sourceTree = "<group>"; };
+		EC0668BA2652EAD2000D0ECF /* FastFourierTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFourierTransform.h; sourceTree = "<group>"; };
+		EC0668BB2652EAD2000D0ECF /* FastFourierTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FastFourierTransform.cpp; sourceTree = "<group>"; };
+		EC0668BC2652EAD2000D0ECF /* Fingerprint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fingerprint.cpp; sourceTree = "<group>"; };
+		EC0668BD2652EAD2000D0ECF /* Spectrogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spectrogram.h; sourceTree = "<group>"; };
+		EC0668BE2652EAD2000D0ECF /* PairManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairManager.h; sourceTree = "<group>"; };
+		EC0668BF2652EAD2000D0ECF /* FingerprintProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintProperties.h; sourceTree = "<group>"; };
+		EC0668C02652EAD2000D0ECF /* QuickSortInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortInteger.h; sourceTree = "<group>"; };
+		EC0668C12652EAD2000D0ECF /* FingerprintSimilarityComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintSimilarityComputer.h; sourceTree = "<group>"; };
+		EC0668C22652EAD2000D0ECF /* WindowFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WindowFunction.cpp; sourceTree = "<group>"; };
+		EC0668C32652EAD2000D0ECF /* PairManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PairManager.cpp; sourceTree = "<group>"; };
+		EC0668C42652EAD2000D0ECF /* FingerprintManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerprintManager.cpp; sourceTree = "<group>"; };
+		EC0668C52652EAD2000D0ECF /* FingerprintSimilarity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintSimilarity.h; sourceTree = "<group>"; };
+		EC0668C62652EAD2000D0ECF /* ArrayCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayCoord.h; sourceTree = "<group>"; };
+		EC0668C72652EAD2000D0ECF /* ArrayCoord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayCoord.cpp; sourceTree = "<group>"; };
+		EC0668C82652EAD2000D0ECF /* FingerprintSimilarity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerprintSimilarity.cpp; sourceTree = "<group>"; };
+		EC0668C92652EAD2000D0ECF /* RobustIntensityProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobustIntensityProcessor.cpp; sourceTree = "<group>"; };
+		EC0668CA2652EAD2000D0ECF /* Fingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fingerprint.h; sourceTree = "<group>"; };
+		EC0668CB2652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerprintSimilarityComputer.cpp; sourceTree = "<group>"; };
+		EC0668CC2652EAD2000D0ECF /* MapRankInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapRankInteger.cpp; sourceTree = "<group>"; };
+		EC0668CD2652EAD2000D0ECF /* MapRankInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRankInteger.h; sourceTree = "<group>"; };
+		EC0668CE2652EAD2000D0ECF /* Spectrogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Spectrogram.cpp; sourceTree = "<group>"; };
+		EC0668CF2652EAD2000D0ECF /* RobustIntensityProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobustIntensityProcessor.h; sourceTree = "<group>"; };
+		EC0668D02652EAD2000D0ECF /* ArrayRankFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayRankFloat.h; sourceTree = "<group>"; };
+		EC0668D12652EAD2000D0ECF /* WindowFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowFunction.h; sourceTree = "<group>"; };
+		EC0668F22652EE41000D0ECF /* FingerprintC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FingerprintC; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0668A62652EA0C000D0ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0668EF2652EE41000D0ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC06689F2652EA0C000D0ECF = {
+			isa = PBXGroup;
+			children = (
+				EC0668AA2652EA0C000D0ECF /* Source */,
+				EC0668A92652EA0C000D0ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0668A92652EA0C000D0ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0668A82652EA0C000D0ECF /* libFingerprint.a */,
+				EC0668F22652EE41000D0ECF /* FingerprintC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0668AA2652EA0C000D0ECF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC0668C72652EAD2000D0ECF /* ArrayCoord.cpp */,
+				EC0668C62652EAD2000D0ECF /* ArrayCoord.h */,
+				EC0668B92652EAD2000D0ECF /* ArrayRankFloat.cpp */,
+				EC0668D02652EAD2000D0ECF /* ArrayRankFloat.h */,
+				EC0668BB2652EAD2000D0ECF /* FastFourierTransform.cpp */,
+				EC0668BA2652EAD2000D0ECF /* FastFourierTransform.h */,
+				EC0668BC2652EAD2000D0ECF /* Fingerprint.cpp */,
+				EC0668CA2652EAD2000D0ECF /* Fingerprint.h */,
+				EC0668C42652EAD2000D0ECF /* FingerprintManager.cpp */,
+				EC0668B72652EAD2000D0ECF /* FingerprintManager.h */,
+				EC0668B82652EAD2000D0ECF /* FingerprintProperties.cpp */,
+				EC0668BF2652EAD2000D0ECF /* FingerprintProperties.h */,
+				EC0668C82652EAD2000D0ECF /* FingerprintSimilarity.cpp */,
+				EC0668C52652EAD2000D0ECF /* FingerprintSimilarity.h */,
+				EC0668CB2652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp */,
+				EC0668C12652EAD2000D0ECF /* FingerprintSimilarityComputer.h */,
+				EC0668CC2652EAD2000D0ECF /* MapRankInteger.cpp */,
+				EC0668CD2652EAD2000D0ECF /* MapRankInteger.h */,
+				EC0668C32652EAD2000D0ECF /* PairManager.cpp */,
+				EC0668BE2652EAD2000D0ECF /* PairManager.h */,
+				EC0668B62652EAD2000D0ECF /* QuickSortInteger.cpp */,
+				EC0668C02652EAD2000D0ECF /* QuickSortInteger.h */,
+				EC0668C92652EAD2000D0ECF /* RobustIntensityProcessor.cpp */,
+				EC0668CF2652EAD2000D0ECF /* RobustIntensityProcessor.h */,
+				EC0668CE2652EAD2000D0ECF /* Spectrogram.cpp */,
+				EC0668BD2652EAD2000D0ECF /* Spectrogram.h */,
+				EC0668C22652EAD2000D0ECF /* WindowFunction.cpp */,
+				EC0668D12652EAD2000D0ECF /* WindowFunction.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC0668A42652EA0C000D0ECF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0668D62652EAD2000D0ECF /* FastFourierTransform.h in Headers */,
+				EC0668DC2652EAD2000D0ECF /* QuickSortInteger.h in Headers */,
+				EC0668DB2652EAD2000D0ECF /* FingerprintProperties.h in Headers */,
+				EC0668DD2652EAD2000D0ECF /* FingerprintSimilarityComputer.h in Headers */,
+				EC0668E12652EAD2000D0ECF /* FingerprintSimilarity.h in Headers */,
+				EC0668EC2652EAD2000D0ECF /* ArrayRankFloat.h in Headers */,
+				EC0668D32652EAD2000D0ECF /* FingerprintManager.h in Headers */,
+				EC0668E92652EAD2000D0ECF /* MapRankInteger.h in Headers */,
+				EC0668DA2652EAD2000D0ECF /* PairManager.h in Headers */,
+				EC0668D92652EAD2000D0ECF /* Spectrogram.h in Headers */,
+				EC0668E22652EAD2000D0ECF /* ArrayCoord.h in Headers */,
+				EC0668EB2652EAD2000D0ECF /* RobustIntensityProcessor.h in Headers */,
+				EC0668ED2652EAD2000D0ECF /* WindowFunction.h in Headers */,
+				EC0668E62652EAD2000D0ECF /* Fingerprint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC0668A72652EA0C000D0ECF /* Fingerprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0668B32652EA0C000D0ECF /* Build configuration list for PBXNativeTarget "Fingerprint" */;
+			buildPhases = (
+				EC0668A42652EA0C000D0ECF /* Headers */,
+				EC0668A52652EA0C000D0ECF /* Sources */,
+				EC0668A62652EA0C000D0ECF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fingerprint;
+			productName = Fingerprint;
+			productReference = EC0668A82652EA0C000D0ECF /* libFingerprint.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC0668F12652EE41000D0ECF /* FingerprintC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0668F62652EE41000D0ECF /* Build configuration list for PBXNativeTarget "FingerprintC" */;
+			buildPhases = (
+				EC0668EE2652EE41000D0ECF /* Sources */,
+				EC0668EF2652EE41000D0ECF /* Frameworks */,
+				EC0668F02652EE41000D0ECF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerprintC;
+			productName = FingerprintC;
+			productReference = EC0668F22652EE41000D0ECF /* FingerprintC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0668A02652EA0C000D0ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "TuneURL Inc.";
+				TargetAttributes = {
+					EC0668A72652EA0C000D0ECF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EC0668F12652EE41000D0ECF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EC0668A32652EA0C000D0ECF /* Build configuration list for PBXProject "Fingerprint" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC06689F2652EA0C000D0ECF;
+			productRefGroup = EC0668A92652EA0C000D0ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0668A72652EA0C000D0ECF /* Fingerprint */,
+				EC0668F12652EE41000D0ECF /* FingerprintC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0668A52652EA0C000D0ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0668E32652EAD2000D0ECF /* ArrayCoord.cpp in Sources */,
+				EC0668D52652EAD2000D0ECF /* ArrayRankFloat.cpp in Sources */,
+				EC0668D72652EAD2000D0ECF /* FastFourierTransform.cpp in Sources */,
+				EC0668D82652EAD2000D0ECF /* Fingerprint.cpp in Sources */,
+				EC0668E02652EAD2000D0ECF /* FingerprintManager.cpp in Sources */,
+				EC0668D42652EAD2000D0ECF /* FingerprintProperties.cpp in Sources */,
+				EC0668E42652EAD2000D0ECF /* FingerprintSimilarity.cpp in Sources */,
+				EC0668E72652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp in Sources */,
+				EC0668E82652EAD2000D0ECF /* MapRankInteger.cpp in Sources */,
+				EC0668DF2652EAD2000D0ECF /* PairManager.cpp in Sources */,
+				EC0668D22652EAD2000D0ECF /* QuickSortInteger.cpp in Sources */,
+				EC0668E52652EAD2000D0ECF /* RobustIntensityProcessor.cpp in Sources */,
+				EC0668EA2652EAD2000D0ECF /* Spectrogram.cpp in Sources */,
+				EC0668DE2652EAD2000D0ECF /* WindowFunction.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0668EE2652EE41000D0ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC0668B12652EA0C000D0ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC0668B22652EA0C000D0ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC0668B42652EA0C000D0ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63XWBVGEW;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC0668B52652EA0C000D0ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63XWBVGEW;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC0668F72652EE41000D0ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63XWBVGEW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC0668F82652EE41000D0ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63XWBVGEW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0668A32652EA0C000D0ECF /* Build configuration list for PBXProject "Fingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0668B12652EA0C000D0ECF /* Debug */,
+				EC0668B22652EA0C000D0ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0668B32652EA0C000D0ECF /* Build configuration list for PBXNativeTarget "Fingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0668B42652EA0C000D0ECF /* Debug */,
+				EC0668B52652EA0C000D0ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0668F62652EE41000D0ECF /* Build configuration list for PBXNativeTarget "FingerprintC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0668F72652EE41000D0ECF /* Debug */,
+				EC0668F82652EE41000D0ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0668A02652EA0C000D0ECF /* Project object */;
+}
