@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EC0669082652F095000D0ECF"
-               BuildableName = "libFingerprint (macOS).a"
+               BuildableName = "libFingerprint.a"
                BlueprintName = "libFingerprint (macOS)"
                ReferencedContainer = "container:Fingerprint.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC0669082652F095000D0ECF"
-            BuildableName = "libFingerprint (macOS).a"
+            BuildableName = "libFingerprint.a"
             BlueprintName = "libFingerprint (macOS)"
             ReferencedContainer = "container:Fingerprint.xcodeproj">
          </BuildableReference>
