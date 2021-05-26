@@ -22,10 +22,8 @@
 		EC0668DE2652EAD2000D0ECF /* WindowFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C22652EAD2000D0ECF /* WindowFunction.cpp */; };
 		EC0668DF2652EAD2000D0ECF /* PairManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C32652EAD2000D0ECF /* PairManager.cpp */; };
 		EC0668E02652EAD2000D0ECF /* FingerprintManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C42652EAD2000D0ECF /* FingerprintManager.cpp */; };
-		EC0668E12652EAD2000D0ECF /* FingerprintSimilarity.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C52652EAD2000D0ECF /* FingerprintSimilarity.h */; };
 		EC0668E22652EAD2000D0ECF /* ArrayCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C62652EAD2000D0ECF /* ArrayCoord.h */; };
 		EC0668E32652EAD2000D0ECF /* ArrayCoord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C72652EAD2000D0ECF /* ArrayCoord.cpp */; };
-		EC0668E42652EAD2000D0ECF /* FingerprintSimilarity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C82652EAD2000D0ECF /* FingerprintSimilarity.cpp */; };
 		EC0668E52652EAD2000D0ECF /* RobustIntensityProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C92652EAD2000D0ECF /* RobustIntensityProcessor.cpp */; };
 		EC0668E62652EAD2000D0ECF /* Fingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668CA2652EAD2000D0ECF /* Fingerprint.h */; };
 		EC0668E72652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668CB2652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp */; };
@@ -40,7 +38,6 @@
 		EC06690B2652F095000D0ECF /* QuickSortInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C02652EAD2000D0ECF /* QuickSortInteger.h */; };
 		EC06690C2652F095000D0ECF /* FingerprintProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668BF2652EAD2000D0ECF /* FingerprintProperties.h */; };
 		EC06690D2652F095000D0ECF /* FingerprintSimilarityComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C12652EAD2000D0ECF /* FingerprintSimilarityComputer.h */; };
-		EC06690E2652F095000D0ECF /* FingerprintSimilarity.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668C52652EAD2000D0ECF /* FingerprintSimilarity.h */; };
 		EC06690F2652F095000D0ECF /* ArrayRankFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668D02652EAD2000D0ECF /* ArrayRankFloat.h */; };
 		EC0669102652F095000D0ECF /* FingerprintManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668B72652EAD2000D0ECF /* FingerprintManager.h */; };
 		EC0669112652F095000D0ECF /* MapRankInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0668CD2652EAD2000D0ECF /* MapRankInteger.h */; };
@@ -56,7 +53,6 @@
 		EC06691C2652F095000D0ECF /* Fingerprint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668BC2652EAD2000D0ECF /* Fingerprint.cpp */; };
 		EC06691D2652F095000D0ECF /* FingerprintManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C42652EAD2000D0ECF /* FingerprintManager.cpp */; };
 		EC06691E2652F095000D0ECF /* FingerprintProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668B82652EAD2000D0ECF /* FingerprintProperties.cpp */; };
-		EC06691F2652F095000D0ECF /* FingerprintSimilarity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C82652EAD2000D0ECF /* FingerprintSimilarity.cpp */; };
 		EC0669202652F095000D0ECF /* FingerprintSimilarityComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668CB2652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp */; };
 		EC0669212652F095000D0ECF /* MapRankInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668CC2652EAD2000D0ECF /* MapRankInteger.cpp */; };
 		EC0669222652F095000D0ECF /* PairManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0668C32652EAD2000D0ECF /* PairManager.cpp */; };
@@ -108,10 +104,8 @@
 		EC0668C22652EAD2000D0ECF /* WindowFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WindowFunction.cpp; sourceTree = "<group>"; };
 		EC0668C32652EAD2000D0ECF /* PairManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PairManager.cpp; sourceTree = "<group>"; };
 		EC0668C42652EAD2000D0ECF /* FingerprintManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerprintManager.cpp; sourceTree = "<group>"; };
-		EC0668C52652EAD2000D0ECF /* FingerprintSimilarity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintSimilarity.h; sourceTree = "<group>"; };
 		EC0668C62652EAD2000D0ECF /* ArrayCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayCoord.h; sourceTree = "<group>"; };
 		EC0668C72652EAD2000D0ECF /* ArrayCoord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayCoord.cpp; sourceTree = "<group>"; };
-		EC0668C82652EAD2000D0ECF /* FingerprintSimilarity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerprintSimilarity.cpp; sourceTree = "<group>"; };
 		EC0668C92652EAD2000D0ECF /* RobustIntensityProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobustIntensityProcessor.cpp; sourceTree = "<group>"; };
 		EC0668CA2652EAD2000D0ECF /* Fingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fingerprint.h; sourceTree = "<group>"; };
 		EC0668CB2652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerprintSimilarityComputer.cpp; sourceTree = "<group>"; };
@@ -127,6 +121,7 @@
 		EC06692F2652F19E000D0ECF /* Fingerprint-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fingerprint-Bridging-Header.h"; sourceTree = "<group>"; };
 		EC0669302652F301000D0ECF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		EC0669342652F4CF000D0ECF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		EC335CB1265E9116002FCD08 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +155,7 @@
 		EC06689F2652EA0C000D0ECF = {
 			isa = PBXGroup;
 			children = (
+				EC335CB1265E9116002FCD08 /* README.md */,
 				EC0668AA2652EA0C000D0ECF /* Source */,
 				EC0668FE2652EEF0000D0ECF /* macOS */,
 				EC0668A92652EA0C000D0ECF /* Products */,
@@ -192,8 +188,6 @@
 				EC0668B72652EAD2000D0ECF /* FingerprintManager.h */,
 				EC0668B82652EAD2000D0ECF /* FingerprintProperties.cpp */,
 				EC0668BF2652EAD2000D0ECF /* FingerprintProperties.h */,
-				EC0668C82652EAD2000D0ECF /* FingerprintSimilarity.cpp */,
-				EC0668C52652EAD2000D0ECF /* FingerprintSimilarity.h */,
 				EC0668CB2652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp */,
 				EC0668C12652EAD2000D0ECF /* FingerprintSimilarityComputer.h */,
 				EC0668CC2652EAD2000D0ECF /* MapRankInteger.cpp */,
@@ -241,7 +235,6 @@
 				EC0668DC2652EAD2000D0ECF /* QuickSortInteger.h in Headers */,
 				EC0668DB2652EAD2000D0ECF /* FingerprintProperties.h in Headers */,
 				EC0668DD2652EAD2000D0ECF /* FingerprintSimilarityComputer.h in Headers */,
-				EC0668E12652EAD2000D0ECF /* FingerprintSimilarity.h in Headers */,
 				EC0668EC2652EAD2000D0ECF /* ArrayRankFloat.h in Headers */,
 				EC0668D32652EAD2000D0ECF /* FingerprintManager.h in Headers */,
 				EC0668E92652EAD2000D0ECF /* MapRankInteger.h in Headers */,
@@ -262,7 +255,6 @@
 				EC06690B2652F095000D0ECF /* QuickSortInteger.h in Headers */,
 				EC06690C2652F095000D0ECF /* FingerprintProperties.h in Headers */,
 				EC06690D2652F095000D0ECF /* FingerprintSimilarityComputer.h in Headers */,
-				EC06690E2652F095000D0ECF /* FingerprintSimilarity.h in Headers */,
 				EC06690F2652F095000D0ECF /* ArrayRankFloat.h in Headers */,
 				EC0669102652F095000D0ECF /* FingerprintManager.h in Headers */,
 				EC0669112652F095000D0ECF /* MapRankInteger.h in Headers */,
@@ -379,7 +371,6 @@
 				EC0668D82652EAD2000D0ECF /* Fingerprint.cpp in Sources */,
 				EC0668E02652EAD2000D0ECF /* FingerprintManager.cpp in Sources */,
 				EC0668D42652EAD2000D0ECF /* FingerprintProperties.cpp in Sources */,
-				EC0668E42652EAD2000D0ECF /* FingerprintSimilarity.cpp in Sources */,
 				EC0668E72652EAD2000D0ECF /* FingerprintSimilarityComputer.cpp in Sources */,
 				EC0668E82652EAD2000D0ECF /* MapRankInteger.cpp in Sources */,
 				EC0668DF2652EAD2000D0ECF /* PairManager.cpp in Sources */,
@@ -408,7 +399,6 @@
 				EC06691C2652F095000D0ECF /* Fingerprint.cpp in Sources */,
 				EC06691D2652F095000D0ECF /* FingerprintManager.cpp in Sources */,
 				EC06691E2652F095000D0ECF /* FingerprintProperties.cpp in Sources */,
-				EC06691F2652F095000D0ECF /* FingerprintSimilarity.cpp in Sources */,
 				EC0669202652F095000D0ECF /* FingerprintSimilarityComputer.cpp in Sources */,
 				EC0669212652F095000D0ECF /* MapRankInteger.cpp in Sources */,
 				EC0669222652F095000D0ECF /* PairManager.cpp in Sources */,

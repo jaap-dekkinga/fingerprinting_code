@@ -7,8 +7,9 @@
 //
 
 
+#include <limits.h>
+#include "Fingerprint.h"
 #include "FingerprintManager.h"
-#include "FingerprintSimilarity.h"
 #include "FingerprintSimilarityComputer.h"
 #include "MapRankInteger.h"
 #include "PairManager.h"
@@ -28,6 +29,7 @@ FingerprintSimilarity FingerprintSimilarityComputer::getMatchResults()
 	results.score = 0.0f;
 	results.similarity = 0.0f;
 	results.mostSimilarFramePosition = INT_MIN;
+	results.mostSimilarStartTime = 1.0f;
 
 	// one frame may contain several points, use the shorter one be the denominator
 	if (fingerprint1.size() > fingerprint2.size()) {
@@ -100,6 +102,9 @@ FingerprintSimilarity FingerprintSimilarityComputer::getMatchResults()
 		// similarity > 1.0 means in average there is at least one match in every frame
 		results.similarity = 1.0f;
 	}
+
+	// calculate the most similar start time
+	results.mostSimilarStartTime = ((float)results.mostSimilarFramePosition / (float)FingerprintProperties::numRobustPointsPerFrame / (float)FingerprintProperties::fps);
 
 	return results;
 }

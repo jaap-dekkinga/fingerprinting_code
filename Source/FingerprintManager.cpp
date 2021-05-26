@@ -31,28 +31,16 @@ int FingerprintManager::getNumFrames(const vector<uint8_t> &fingerprint)
 // MARK: -
 // MARK: Public
 
-vector<uint8_t> *FingerprintManager::extractFingerprint(const int16_t *wave, int waveLength, bool resample)
+vector<uint8_t> *FingerprintManager::extractFingerprint(const int16_t *wave, int waveLength)
 {
-	// resample the wave
-	vector<int16_t> resampledWave;
-
-	// TODO: restore resampling
+	// TODO: remove this copy
 
 	// copy the wave data
+	vector<int16_t> resampledWave;
 	resampledWave.resize(waveLength);
 	memcpy(resampledWave.data(), wave, (waveLength * sizeof(int16_t)));
-/*
-	if (resample) {
-		let resampled = AudioUtility.changeSampleRate(sampleRate: Double(sampleRate), buffer1: wave);
-		if (resample == NULL) {
-			return NULL;
-		}
-		resampledWave = resampled;
-	} else {
-		resampledWave = wave;
-	}
-*/
-// ----
+
+	// ----
 
 	int numRobustPointsPerFrame = FingerprintProperties::numRobustPointsPerFrame;
 	int overlapFactor = FingerprintProperties::overlapFactor;

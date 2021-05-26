@@ -20,7 +20,7 @@ public:
 
 	static int getNumFrames(const vector<uint8_t> &fingerprint);
 
-	vector<uint8_t> *extractFingerprint(const int16_t *wave, int waveLength, bool resample);
+	vector<uint8_t> *extractFingerprint(const int16_t *wave, int waveLength);
 
 private:
 
