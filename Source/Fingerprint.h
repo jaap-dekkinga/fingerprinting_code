@@ -35,6 +35,7 @@ typedef struct FingerprintSimilarity {
 
 FingerprintSimilarity CompareFingerprints(const Fingerprint *fingerprint1, const Fingerprint *fingerprint2);
 Fingerprint *ExtractFingerprint(const int16_t *wave, int waveLength);
+Fingerprint *ExtractFingerprintFromRawFile(const char *filePath);
 void FingerprintFree(Fingerprint *fingerprint);
 
 #ifdef __cplusplus

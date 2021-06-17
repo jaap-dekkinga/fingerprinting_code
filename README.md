@@ -14,6 +14,10 @@ To use the Fingerprint library, just import 'Fingerprint.h'
 * The sample rate of the audio should be 10,240 Hz. (You will need to resample the audio.)
 * The length of the fingerprint will be proportional to the length of the audio.
 
+> Fingerprint *ExtractFingerprintFromRawFile(const char *filePath);
+
+* This function will read a file containing the raw PCM wave data. It assumes there is no audio file header.
+* The audio samples should be 16-bit mono PCM, with a sample rate of 10,240 Hz.
 
 ## Step 2: Use 'CompareFingerprints' to calculate the similiarity of two fingerprints.
 

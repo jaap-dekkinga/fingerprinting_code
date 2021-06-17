@@ -50,6 +50,47 @@ Fingerprint *ExtractFingerprint(const int16_t *wave, int waveLength)
 	return fingerprint;
 }
 
+Fingerprint *ExtractFingerprintFromRawFile(const char *filePath)
+{
+	// open the file
+	FILE *file = fopen(filePath, "r");
+	if (file == NULL) {
+		return NULL;
+	}
+
+	// get the file size
+	fseek(file, 0L, SEEK_END);
+	int fileSize = (int)ftell(file);
+	rewind(file);
+	if ((fileSize <= 0) || ((fileSize & 0x1) != 0)) {
+		return NULL;
+	}
+
+	// allocate the buffer
+	void *fileBuffer = malloc(fileSize);
+	if (fileBuffer == NULL) {
+		return NULL;
+	}
+
+	// read the file
+	if (fread(fileBuffer, 1, fileSize, file) != fileSize) {
+		free(fileBuffer);
+		return NULL;
+	}
+
+	// generate the fingerprint
+	Fingerprint *fingerprint = ExtractFingerprint((const int16_t*)fileBuffer, (fileSize >> 2));
+	if (fingerprint == NULL) {
+		free(fileBuffer);
+		return NULL;
+	}
+
+	// cleanup
+	free(fileBuffer);
+
+	return fingerprint;
+}
+
 void FingerprintFree(Fingerprint *fingerprint)
 {
 	// release the fingerprint

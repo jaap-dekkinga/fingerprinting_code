@@ -44,21 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC1E7759267AD08C00D61EDF"
-            BuildableName = "Fingerprint"
-            BlueprintName = "Fingerprint"
-            ReferencedContainer = "container:Fingerprint.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC0668FC2652EEF0000D0ECF"
             BuildableName = "FingerprintSwift"
             BlueprintName = "FingerprintSwift"
             ReferencedContainer = "container:Fingerprint.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
             argument = "fingerprint &quot;/Users/Gerrit/Upwork/TuneURL/Testing/Test-1.wav&quot;"

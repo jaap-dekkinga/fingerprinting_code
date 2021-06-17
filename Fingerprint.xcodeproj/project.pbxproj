@@ -63,6 +63,10 @@
 		EC06692E2652F0F3000D0ECF /* libFingerprint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06692B2652F095000D0ECF /* libFingerprint.a */; };
 		EC0669332652F3A1000D0ECF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0669302652F301000D0ECF /* Accelerate.framework */; };
 		EC0669352652F4CF000D0ECF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0669342652F4CF000D0ECF /* libc++.tbd */; };
+		EC1E775D267AD08C00D61EDF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC1E775C267AD08C00D61EDF /* main.c */; };
+		EC1E7761267AD4CF00D61EDF /* libFingerprint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06692B2652F095000D0ECF /* libFingerprint.a */; };
+		EC1E7764267AD52E00D61EDF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0669302652F301000D0ECF /* Accelerate.framework */; };
+		EC1E7765267AD53D00D61EDF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0669342652F4CF000D0ECF /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,10 +77,26 @@
 			remoteGlobalIDString = EC0669082652F095000D0ECF;
 			remoteInfo = "libFingerprint (macOS)";
 		};
+		EC1E7762267AD4CF00D61EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0668A02652EA0C000D0ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0669082652F095000D0ECF;
+			remoteInfo = "libFingerprint (macOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EC0668FB2652EEF0000D0ECF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EC1E7758267AD08C00D61EDF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -115,12 +135,14 @@
 		EC0668CF2652EAD2000D0ECF /* RobustIntensityProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobustIntensityProcessor.h; sourceTree = "<group>"; };
 		EC0668D02652EAD2000D0ECF /* ArrayRankFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayRankFloat.h; sourceTree = "<group>"; };
 		EC0668D12652EAD2000D0ECF /* WindowFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowFunction.h; sourceTree = "<group>"; };
-		EC0668FD2652EEF0000D0ECF /* Fingerprint */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fingerprint; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0668FD2652EEF0000D0ECF /* FingerprintSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FingerprintSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0668FF2652EEF0000D0ECF /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EC06692B2652F095000D0ECF /* libFingerprint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFingerprint.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC06692F2652F19E000D0ECF /* Fingerprint-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fingerprint-Bridging-Header.h"; sourceTree = "<group>"; };
 		EC0669302652F301000D0ECF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		EC0669342652F4CF000D0ECF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		EC1E775A267AD08C00D61EDF /* Fingerprint */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fingerprint; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1E775C267AD08C00D61EDF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EC335CB1265E9116002FCD08 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +171,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC1E7757267AD08C00D61EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1E7765267AD53D00D61EDF /* libc++.tbd in Frameworks */,
+				EC1E7761267AD4CF00D61EDF /* libFingerprint.a in Frameworks */,
+				EC1E7764267AD52E00D61EDF /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -158,6 +190,7 @@
 				EC335CB1265E9116002FCD08 /* README.md */,
 				EC0668AA2652EA0C000D0ECF /* Source */,
 				EC0668FE2652EEF0000D0ECF /* macOS */,
+				EC1E775B267AD08C00D61EDF /* Fingerprint */,
 				EC0668A92652EA0C000D0ECF /* Products */,
 				EC0669062652EFDF000D0ECF /* Frameworks */,
 			);
@@ -167,8 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				EC0668A82652EA0C000D0ECF /* libFingerprint.a */,
-				EC0668FD2652EEF0000D0ECF /* Fingerprint */,
+				EC0668FD2652EEF0000D0ECF /* FingerprintSwift */,
 				EC06692B2652F095000D0ECF /* libFingerprint.a */,
+				EC1E775A267AD08C00D61EDF /* Fingerprint */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,6 +256,14 @@
 				EC0669302652F301000D0ECF /* Accelerate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC1E775B267AD08C00D61EDF /* Fingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E775C267AD08C00D61EDF /* main.c */,
+			);
+			path = Fingerprint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +329,9 @@
 			productReference = EC0668A82652EA0C000D0ECF /* libFingerprint.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		EC0668FC2652EEF0000D0ECF /* Fingerprint */ = {
+		EC0668FC2652EEF0000D0ECF /* FingerprintSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC0669012652EEF0000D0ECF /* Build configuration list for PBXNativeTarget "Fingerprint" */;
+			buildConfigurationList = EC0669012652EEF0000D0ECF /* Build configuration list for PBXNativeTarget "FingerprintSwift" */;
 			buildPhases = (
 				EC0668F92652EEF0000D0ECF /* Sources */,
 				EC0668FA2652EEF0000D0ECF /* Frameworks */,
@@ -300,9 +342,9 @@
 			dependencies = (
 				EC06692D2652F0D3000D0ECF /* PBXTargetDependency */,
 			);
-			name = Fingerprint;
+			name = FingerprintSwift;
 			productName = Tool;
-			productReference = EC0668FD2652EEF0000D0ECF /* Fingerprint */;
+			productReference = EC0668FD2652EEF0000D0ECF /* FingerprintSwift */;
 			productType = "com.apple.product-type.tool";
 		};
 		EC0669082652F095000D0ECF /* libFingerprint (macOS) */ = {
@@ -322,6 +364,24 @@
 			productReference = EC06692B2652F095000D0ECF /* libFingerprint.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		EC1E7759267AD08C00D61EDF /* Fingerprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1E775E267AD08C00D61EDF /* Build configuration list for PBXNativeTarget "Fingerprint" */;
+			buildPhases = (
+				EC1E7756267AD08C00D61EDF /* Sources */,
+				EC1E7757267AD08C00D61EDF /* Frameworks */,
+				EC1E7758267AD08C00D61EDF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1E7763267AD4CF00D61EDF /* PBXTargetDependency */,
+			);
+			name = Fingerprint;
+			productName = Fingerprint;
+			productReference = EC1E775A267AD08C00D61EDF /* Fingerprint */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -336,6 +396,9 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					EC0668FC2652EEF0000D0ECF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EC1E7759267AD08C00D61EDF = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -353,7 +416,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC0668FC2652EEF0000D0ECF /* Fingerprint */,
+				EC1E7759267AD08C00D61EDF /* Fingerprint */,
+				EC0668FC2652EEF0000D0ECF /* FingerprintSwift */,
 				EC0668A72652EA0C000D0ECF /* libFingerprint (iOS) */,
 				EC0669082652F095000D0ECF /* libFingerprint (macOS) */,
 			);
@@ -409,6 +473,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC1E7756267AD08C00D61EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1E775D267AD08C00D61EDF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -416,6 +488,11 @@
 			isa = PBXTargetDependency;
 			target = EC0669082652F095000D0ECF /* libFingerprint (macOS) */;
 			targetProxy = EC06692C2652F0D3000D0ECF /* PBXContainerItemProxy */;
+		};
+		EC1E7763267AD4CF00D61EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0669082652F095000D0ECF /* libFingerprint (macOS) */;
+			targetProxy = EC1E7762267AD4CF00D61EDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,6 +613,7 @@
 		EC0668B42652EA0C000D0ECF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63XWBVGEW;
 				EXECUTABLE_PREFIX = "";
@@ -549,6 +627,7 @@
 		EC0668B52652EA0C000D0ECF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63XWBVGEW;
 				EXECUTABLE_PREFIX = "";
@@ -596,6 +675,7 @@
 		EC0669292652F095000D0ECF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63XWBVGEW;
 				EXECUTABLE_PREFIX = "";
@@ -610,6 +690,7 @@
 		EC06692A2652F095000D0ECF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63XWBVGEW;
 				EXECUTABLE_PREFIX = "";
@@ -618,6 +699,30 @@
 				PRODUCT_NAME = libFingerprint;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC1E775F267AD08C00D61EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63XWBVGEW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC1E7760267AD08C00D61EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63XWBVGEW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -642,7 +747,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC0669012652EEF0000D0ECF /* Build configuration list for PBXNativeTarget "Fingerprint" */ = {
+		EC0669012652EEF0000D0ECF /* Build configuration list for PBXNativeTarget "FingerprintSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC0669022652EEF0000D0ECF /* Debug */,
@@ -656,6 +761,15 @@
 			buildConfigurations = (
 				EC0669292652F095000D0ECF /* Debug */,
 				EC06692A2652F095000D0ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1E775E267AD08C00D61EDF /* Build configuration list for PBXNativeTarget "Fingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1E775F267AD08C00D61EDF /* Debug */,
+				EC1E7760267AD08C00D61EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
