@@ -24,6 +24,9 @@ fileprivate func extractFingerprint(audioData: [Int16]) -> [UInt8]?
 		array.append(pointer[x])
 	}
 
+	// cleanup
+	FingerprintFree(fingerprint)
+
 	return array
 }
 

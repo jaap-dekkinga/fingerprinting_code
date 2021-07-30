@@ -15,7 +15,7 @@
 using std::map;
 using std::vector;
 
-class FingerprintSimilarity;
+struct FingerprintSimilarity;
 
 class FingerprintSimilarityComputer {
 

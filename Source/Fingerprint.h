@@ -22,8 +22,21 @@ typedef struct Fingerprint {
 
 } Fingerprint;
 
-float CompareFingerprints(const Fingerprint *fingerprint1, const Fingerprint *fingerprint2);
+
+typedef struct FingerprintSimilarity {
+
+	int mostSimilarFramePosition;	// the frame number that was most similar
+	float mostSimilarStartTime;		// the start time of the most similar section
+	float score;					// the number of features matched per frame
+	float similarity;				// similarity ranked in range (0.0 - 1.0)
+									// 1.0 means that on average there is at least one match every frame.
+} FingerprintSimilarity;
+
+
+FingerprintSimilarity CompareFingerprints(const Fingerprint *fingerprint1, const Fingerprint *fingerprint2);
 Fingerprint *ExtractFingerprint(const int16_t *wave, int waveLength);
+Fingerprint *ExtractFingerprintFromRawFile(const char *filePath);
+void FingerprintFree(Fingerprint *fingerprint);
 
 #ifdef __cplusplus
 }
