@@ -15,6 +15,10 @@
 extern "C" {
 #endif // __cplusplus
 
+// the audio sample rate required for fingerprinting
+#define FINGERPRINT_SAMPLE_RATE		10240.0
+
+
 typedef struct Fingerprint {
 
 	uint8_t		*data;
