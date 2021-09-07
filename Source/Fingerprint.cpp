@@ -74,7 +74,7 @@ Fingerprint *ExtractFingerprintFromRawFile(const char *filePath)
 	}
 
 	// generate the fingerprint
-	Fingerprint *fingerprint = ExtractFingerprint((const int16_t*)fileBuffer, (fileSize >> 2));
+	Fingerprint *fingerprint = ExtractFingerprint((const int16_t*)fileBuffer, (fileSize >> 1));
 	if (fingerprint == NULL) {
 		free(fileBuffer);
 		return NULL;
